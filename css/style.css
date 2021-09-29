@@ -374,3 +374,13 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
+
+.contact .info a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact .info a:hover{
+    transform: scale(1.2);
+    color: purple;
+}
