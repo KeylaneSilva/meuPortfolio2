@@ -5,6 +5,11 @@
     }
     .home{
         padding: 1rem 4rem;
+        top: -40%;
+        margin: 200px 0px 0px 0px;
+    }
+    .about{
+        margin-top: 400px;
     }
 }
 
@@ -49,6 +54,8 @@
     }
     .contact .row form{
         margin: 3rem 0;
+    }.about{
+        margin-top: 500px;
     }
     
 }

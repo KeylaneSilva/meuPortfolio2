@@ -28,6 +28,23 @@ $(document).ready(function(){
     })
 })
 
+
+// function typeWrite(elemento){
+//   const textoArray = elemento.innerHTML.split('');
+//   elemento.innerHTML = ' ';
+//   textoArray.forEach(function(letra, i){   
+    
+//   setTimeout(function(){
+//       elemento.innerHTML += letra;
+//   }, 75 * i)
+
+// });
+// }
+
+// const titulo = document.querySelector('#title-nome');
+// typeWrite(titulo);
+
+
 particlesJS("particles-container", {
     particles: {
       number: { value: 150, density: { enable: true, value_area: 800 } },
