@@ -1,3 +1,7 @@
+:root{
+    --cor-geral: #8D00E0
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 *{
@@ -11,7 +15,7 @@
 }
 
 *::selection{
-    background: yellow;
+    background: var(--cor-geral);
     color: #333;
 }
 
@@ -29,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background: rgb(213, 248, 57);
+    background: rgb(130, 57, 248);
 }
 
 body{
@@ -59,7 +63,7 @@ section{
 }
 
 .btn:hover{
-    background: yellow;
+    background: var(--cor-geral);
     color: black;
 }
 
@@ -73,7 +77,7 @@ section{
 }
 
 .heading span{
-    color: yellow;
+    color: var(--cor-geral);
 }
 
 header{
@@ -96,7 +100,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid yellow;
+    border: .7rem solid var(--cor-geral);
 }
 
 header .user .name{
@@ -129,7 +133,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background-color: yellow;
+    background-color: var(--cor-geral);
     color: black;
 }
 
@@ -152,8 +156,8 @@ header .navbar ul li a:hover{
     padding: 0 15rem;
 }
 
-.home h3{
-    font-size: 2.5rem;
+.home h2{
+    font-size: 3.5rem;
     color: #fff;
 }
 
@@ -163,7 +167,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color: yellow;
+    color: var(--cor-geral);
 }
 
 .home p{
@@ -190,7 +194,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color: yellow;
+    color: var(--cor-geral);
     padding: 1rem 0;
     font-weight: normal; 
 }
@@ -217,7 +221,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color: yellow;
+    color: var(--cor-geral);
 }
 
 .about .row .counter .box h3{
@@ -274,7 +278,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color: #fff;
-    background: yellow;
+    background: var(--cor-geral);
 }
 
 /* portfolio */
@@ -365,7 +369,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color: yellow;
+    color: var(--cor-geral);
 }
 
 .top{
