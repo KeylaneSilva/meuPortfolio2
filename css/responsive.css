@@ -46,6 +46,9 @@
     .about .row .counter .box{
         width: 100%;
     }
+    .about .box img{
+        height: 100px;
+    }
     .education .box-container .box{
         width: 100%;
     }

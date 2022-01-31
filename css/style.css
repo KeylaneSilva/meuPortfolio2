@@ -179,7 +179,7 @@ header .navbar ul li a:hover{
     padding: 1rem;
 }
 
-/* about*/
+/* sobre*/
 
 .about .row{
     display: flex;
@@ -215,14 +215,19 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width: 20rem;
+    width: 14rem;
     background: #222;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
 }
 
-.about .row .counter .box span{
+.about .box img:hover{
+    transform: translateX(10px) scale(1.2);
+    transform: rotate(30deg)
+}
+
+/* .about .row .counter .box span{
     font-size: 4rem;
     color: var(--cor-geral);
 }
@@ -230,7 +235,9 @@ header .navbar ul li a:hover{
 .about .row .counter .box h3{
     font-size: 2rem;
     color: white;
-}
+} */
+
+
 
 /*education*/
 
@@ -283,6 +290,12 @@ header .navbar ul li a:hover{
     color: #fff;
     background: var(--cor-geral);
 }
+
+/* img */
+
+/* .counter .box img{
+    font-size: 30px;
+} */
 
 /* portfolio */
 
