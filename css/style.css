@@ -98,7 +98,7 @@ header .user img{
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain; /* ajustando imagem */
     margin-bottom: 1rem;
     border: .7rem solid var(--cor-geral);
 }
